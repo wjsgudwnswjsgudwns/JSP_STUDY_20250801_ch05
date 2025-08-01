@@ -25,7 +25,7 @@
 		
 		<form action="adminLoginOk.jsp" name="loginForm">
 			아이디 : <input type="text" name="id"><br>
-			패스워드 : <input type="text" name="password"><br>
+			패스워드 : <input type="password" name="password"><br>
 			<input type="submit" value="로그인" onclick="loginForm()"> <input type="reset" value="다시입력">
 		</form>
 		
