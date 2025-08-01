@@ -21,9 +21,9 @@
 		String pw = request.getParameter("password");
 		
 		if(id.equals("admin") && pw.equals("1234")){
-			out.print("로그인 성공");
+			out.print("안녕하세요 관리자님. 로그인 성공하셨습니다!");
 		} else {
-			out.print("잘못된 아이디 또는 비밀번호입니다.");
+			out.print("관리자 로그인에 실채하였습니다!");
 		}
 		
 		%>
