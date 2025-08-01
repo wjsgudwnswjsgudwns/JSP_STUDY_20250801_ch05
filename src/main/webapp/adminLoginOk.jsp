@@ -23,7 +23,7 @@
 		if(id.equals("admin") && pw.equals("1234")){
 			out.print("안녕하세요 관리자님. 로그인 성공하셨습니다!");
 		} else {
-			out.print("관리자 로그인에 실채하였습니다!");
+			out.print("관리자 로그인에 실패하였습니다!");
 		}
 		
 		%>
