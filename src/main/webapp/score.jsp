@@ -25,7 +25,7 @@
 		
 		<h2>평균 출력</h2>
 		<hr>
-		<form action="scoreOk.jsp" name="scoreForm" onsubmit="return checkForm()">
+		<form action="scoreOk.jsp" name="scoreForm" onsubmit="return checkForm()"> <!-- submit 막기 -->
 			국어 : <input type="text" name="kor"><br>
 			영어 : <input type="text" name="eng"><br>
 			수학 : <input type="text" name="math"><br>
