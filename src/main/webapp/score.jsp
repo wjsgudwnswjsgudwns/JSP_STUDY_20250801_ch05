@@ -25,11 +25,11 @@
 		
 		<h2>평균 출력</h2>
 		<hr>
-		<form action="scoreOk.jsp" name="scoreForm">
+		<form action="scoreOk.jsp" name="scoreForm" onsubmit="return checkForm()">
 			국어 : <input type="text" name="kor"><br>
 			영어 : <input type="text" name="eng"><br>
 			수학 : <input type="text" name="math"><br>
-			<input type="submit" value="입력" onclick="checkForm()"> <input type="reset" value="다시입력">
+			<input type="submit" value="입력" > <input type="reset" value="다시입력">
 		</form>
 		
 	</body>
