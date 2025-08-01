@@ -12,6 +12,7 @@
 		function checkForm() {
 			if(document.scoreForm.kor.value == 0 || document.scoreForm.eng.value == 0 || document.scoreForm.math.value == 0){ // 빈칸 검사
 				alert ("빈칸을 모두 입력 해주세요");
+				return false;
 			}
 			
 		}
