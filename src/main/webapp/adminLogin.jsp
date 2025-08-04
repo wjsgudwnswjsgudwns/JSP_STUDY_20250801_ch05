@@ -10,7 +10,7 @@
 	
 		<script type="text/javascript">
 		function checkForm() {
-			if(document.loginForm.id.value == 0 || document.loginForm.password.value == 0){ // 빈칸 검사
+			if(document.loginForm.id.value == "" || document.loginForm.password.value == ""){ // 빈칸 검사
 				alert ("아이디 또는 비밀번호를 입력해주세요");
 				return false;
 			}
