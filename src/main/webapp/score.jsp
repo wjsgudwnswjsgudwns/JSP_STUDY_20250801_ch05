@@ -10,7 +10,7 @@
 		
 		<script type="text/javascript">
 		function checkForm() {
-			if(document.scoreForm.kor.value == 0 || document.scoreForm.eng.value == 0 || document.scoreForm.math.value == 0){ // 빈칸 검사
+			if(document.scoreForm.kor.value == "" || document.scoreForm.eng.value == "" || document.scoreForm.math.value == ""){ // 빈칸 검사
 				alert ("빈칸을 모두 입력 해주세요");
 				return false;
 			}
@@ -29,7 +29,7 @@
 			국어 : <input type="text" name="kor"><br>
 			영어 : <input type="text" name="eng"><br>
 			수학 : <input type="text" name="math"><br>
-			<input type="submit" value="입력" > <input type="reset" value="다시입력">
+			<input type="submit" value="입력"> <input type="reset" value="다시입력">
 		</form>
 		
 	</body>
