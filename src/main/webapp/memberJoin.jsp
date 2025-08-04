@@ -7,7 +7,7 @@
 
 		<meta charset="UTF-8">
 		<title> 회원 가입 </title>
-<script type="text/javascript" src="js/joinJs.js"></script>
+		<script type="text/javascript" src="js/joinJs.js"></script>
 
 	</head>
 
